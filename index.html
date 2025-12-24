@@ -212,6 +212,12 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             transition: transform 0.3s;
         }
+        .project-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
 
         .project-card:hover {
             transform: translateY(-5px);
@@ -448,27 +454,33 @@
                 </div>
             </div>
 
-            <div class="project-card">
-                <div class="project-header">
-                    <h3>Sales Analytics</h3>
-                    <p>Revenue Optimization & Performance Tracking</p>
-                </div>
-                <div class="project-body">
-                    <ul>
-                        <li>Analyzed sales trends and customer behavior</li>
-                        <li>Developed KPI tracking dashboards</li>
-                        <li>Performed time-series analysis and forecasting</li>
-                        <li>Increased revenue insights by 15%</li>
-                    </ul>
-                    <div class="tech-tags">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">Power BI</span>
-                        <span class="tech-tag">Excel</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <a
+  href="https://nishank-ecommerce-analytics.streamlit.app/"
+  target="_blank"
+  class="project-link"
+>
+  <div class="project-card">
+      <div class="project-header">
+          <h3>Sales Analytics</h3>
+          <p>Revenue Optimization & Performance Tracking</p>
+      </div>
+      <div class="project-body">
+          <ul>
+              <li>Analyzed sales trends and customer behavior</li>
+              <li>Developed KPI tracking dashboards</li>
+              <li>Performed time-series analysis and forecasting</li>
+              <li>Increased revenue insights by 15%</li>
+          </ul>
+          <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Power BI</span>
+              <span class="tech-tag">Excel</span>
+          </div>
+      </div>
+  </div>
+</a>
+
     </section>
 
     <!-- Contact Section -->
@@ -534,4 +546,5 @@
         });
     </script>
 </body>
+
 </html>
